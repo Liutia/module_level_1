@@ -1,0 +1,12 @@
+guests-styling:
+  version: VERSION
+  css:
+    component:
+      css/liutia.css: {}
+
+buttons:
+  version: VERSION
+  css:
+    component:
+      css/buttons.css: {}
+

@@ -1,0 +1,9 @@
+entity.guests_links:
+  title: 'Vidguks'
+  route_name: liutia.liutia_controller_build
+  menu_name: main
+
+entity.guests_link:
+  title: 'Vidguks'
+  route_name: liutia.liutia_controller_build
+  parent: system.admin_structure

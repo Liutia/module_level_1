@@ -1,0 +1,14 @@
+liutia.liutia_controller_build:
+  path: '/liutia/guest-book'
+  defaults:
+    _controller: '\Drupal\liutia\Controller\LiutiaController::build'
+    _title: 'Your feedback'
+    _group: 'liutia'
+  requirements:
+    _permission: 'access content'
+    _group_add_access: 'group:{group_type}'
+  options:
+    _group_operation_route: TRUE
+    parameters:
+      group_type:
+        with_config_overrides: TRUE

@@ -1,0 +1,8 @@
+name: 'Liutia'
+type: module
+description: 'Entity API'
+core_version_requirement: 9.x
+package: 'Liutia'
+dependencies:
+  - drupal:telephone
+  - drupal:image
